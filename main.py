@@ -3,6 +3,12 @@ BACKGROUND_COLOR = "#B1DDC6"
 import pandas
 from tkinter import *
 word = "wow"
+
+# ------------------------------- CSV HANDLING --------------------------------- #
+words = pandas.read_csv("data/french_words.csv")
+print(words["French"])
+# print(words_list)
+
 # ------------------------------- FRONT CARD ----------------------------------- #
 
 
