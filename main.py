@@ -26,7 +26,7 @@ def right_button():
     score += 1 
     front_card()
     canvas.create_text(400, 340, text=f"score : {score} ", font=("david", 16 ,"bold"))
-    words_english_list.remove([random_num])
+    words_english_list.remove(random_num)
     words_french_list.remove(random_num)
     
 
