@@ -12,6 +12,7 @@ words_english_list = words['English'].to_list()
 words_french_list = words['French'].to_list()
 
 print(words_english_list)
+print(words_french_list)
 words_dict = words.to_dict('dict')
 
 
@@ -85,4 +86,3 @@ wrong_button = Button(image=wrong_img, highlightthickness=0, command=wrong_butto
 wrong_button.grid(row=1, column=1)
 
 window.mainloop()
-
